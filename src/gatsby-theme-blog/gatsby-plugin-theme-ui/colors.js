@@ -7,19 +7,27 @@ import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/col
  * to go from default purple to a blue theme
  */
 
-// const darkBlue = `#007acc`
-// const lightBlue = `#66E0FF`
-// const blueGray = `#282c35`
+const whiteBlue = `hsla(191, 74%, 98%, 1)`
+const sageBlue = `hsla(191, 74%, 45%, 1)`
+const darkBlue = `hsla(191, 74%, 15%, 1)`
+const brightBlue = `hsla(191, 74%, 85%, 1)`
+
+const whiteMaroon = `hsla(331, 74%, 90%, 1)`
+const maroon = `hsla(331, 74%, 45%, 1)`
+const darkMaroon = `hsla(331, 74%, 10%, 1)`
+const brightMaroon = `hsla(331, 74%, 65%, 1)`
 
 export default merge(defaultThemeColors, {
-  // text: blueGray,
-  // primary: darkBlue,
-  // heading: blueGray,
-  // modes: {
-  //   dark: {
-  //     background: blueGray,
-  //     primary: lightBlue,
-  //     highlight: lightBlue,
-  //   },
-  // },
+  background: whiteBlue,
+  text: darkBlue,
+  primary: sageBlue,
+  highlight: brightBlue,
+  modes: {
+    dark: {
+      background: darkMaroon,
+      text: whiteMaroon,
+      primary: maroon,
+      highlight: brightMaroon,
+    },
+  },
 })

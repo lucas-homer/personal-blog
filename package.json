@@ -9,9 +9,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@mdx-js/react": "^1.5.3",
     "gatsby": "^2.18.12",
+    "gatsby-plugin-theme-ui": "^0.2.53",
     "gatsby-theme-blog": "^1.2.7",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "theme-ui": "^0.2.52",
+    "typeface-lora": "0.0.72",
+    "typeface-varela-round": "0.0.71",
+    "typography-theme-lincoln": "^0.16.19"
   }
 }
