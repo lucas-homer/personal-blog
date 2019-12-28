@@ -2,6 +2,17 @@
 
 I created this with Gatsby's gatsby-blog-theme-starter, and using theme shadowing, I modified the fonts and color pallette. It's deployed via Netlify.
 
+Topics I'd like to write about:
+
+- Testing
+- GraphQL and Apollo Client/Server
+- FaunaDB
+- React Native
+- Building a JAMStack site with a couple serverless functions to handle user auth, email notification
+- animations
+- Gatsby Themes
+- design an audio player component
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/).
